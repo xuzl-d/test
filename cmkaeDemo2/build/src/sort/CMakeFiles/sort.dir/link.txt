@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -dynamiclib -Wl,-headerpad_max_install_names -o ../../../bin/libsort.dylib -install_name @rpath/libsort.dylib CMakeFiles/sort.dir/sort.cpp.o 
